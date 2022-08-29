@@ -1,0 +1,13 @@
+global-styling:
+  css:
+    theme:
+      //cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css: { type: external }
+      css/beta.css: {}
+      css/index1.css: {}
+      css/from.css: {}
+      css/link.css: {}
+      css/custom.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+    - core/drupal

@@ -1,0 +1,16 @@
+  <h2 style="text-align: center">{{ label }}</h2>
+  <br />
+  <hr />
+  <br />
+  <section>
+    {% if content.field_image.0 is not empty %}
+    <figure>
+        {{ content.field_image.0 }}
+    </figure>
+    {% endif %}
+    <div class="a">
+        {{ content.body.0 }}
+    </div>
+  </section>
+
+

@@ -1,0 +1,25 @@
+
+{% include directory ~ '/templates/layout/header.html.twig' %}
+
+    <div class="main ">
+        <div class="sky "> </div>
+        <div class="endsky"> </div>
+        <div class="main-content-div">
+            <main class="main-index">
+                <div class="main-content-index">
+                    <div class="main-content-index-part">
+                      {{ page.content }}
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="main-content-page" style="min-height: 500px">
+                        {{ page.sidebar }}
+                        <section>
+                            <div style="clear:both"></div>
+                        </section>
+                    </div>
+                </aside>
+            </main>
+        </div>
+    </div>
+{% include directory ~ '/templates/layout/footer.html.twig' %}

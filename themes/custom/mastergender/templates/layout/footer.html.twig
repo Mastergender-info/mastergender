@@ -1,0 +1,46 @@
+<footer class=" footer-distributed ">
+    <div class=" footer-block ">
+        <div id=" vitri ">
+            <h3>Vị trí của chúng tôi : </h3>
+            <iframe src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2031.052959242943!2d105.25134014812222!3d18.840147955855326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3139e3630f81262d%3A0x3d596107895b6b35!2zVHLGsOG7nW5nIFRIUFQgVGhhbmggQ2jGsMahbmcgMw!5e1!3m2!1svi!2s!4v1650360257815!5m2!1svi!2s "
+                width=" 800 " height=" 600 " style=" border:0; " allowfullscreen=" " loading="lazy " referrerpolicy=" no-referrer-when-downgrade ">
+            </iframe>
+        </div>
+        <div class=" footer-links-group " id=" info ">
+            <h3>Thông tin của chúng tôi :</h3>
+
+            <p><i class="fa fa-home"></i> Trường THPT Thanh Chương 3, Xã Phong Thịnh, huyện Thanh Chương, tỉnh Nghệ An</p>
+            <p><i class="fa fa-phone"></i>  +84981340981 (đ/c Nguyễn Nhật Đức) </p>
+
+            <h3>Liên kết : </h3>
+            <div class=" footer-right ">
+                <a href=" https://www.facebook.com/mastergendertc3"><i class="fa-brands fa-facebook"></i></a>
+                <a href=" https://twitter.com/master_gender"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/mastergendertc3/"><i class=" fa-brands fa-instagram"></i></a>
+                <a href=" https://github.com"><i class=" fa fa-envelope "></i></a>
+            </div>
+            <div class=" footer-left ">
+              {% set menus = simplify_menu('footer') %}
+                <p class=" footer-links ">
+                    {% for menu_item in menus.menu_tree %}
+                      <a  href="{{ menu_item.url }}">
+                          {{ menu_item.text }}
+                      </a>
+                    {% endfor %}
+                </p>
+
+                <p>Mastergender.info &copy; 2022</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    function displays() {
+        var y = document.getElementById('myDIV');
+        if (y.style.display === 'none') {
+            y.style.display = 'block';
+        } else {
+            y.style.display = 'none';
+        }
+    }
+</script>

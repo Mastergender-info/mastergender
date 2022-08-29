@@ -1,0 +1,74 @@
+<header class="header">
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="nav__overlay"></label>
+            <label for="check" class="checkbtn"><i class="fa fa-bars"></i></label>
+            <label class="logo">
+                <a href="{{ url('<front>')}}">
+                    <div class="thumbnail-logo">
+                        <img src="/{{ directory }}/image/logo-pink.png" alt="">
+                    </div>
+                </a>
+            </label>
+            {% set front_menus = simplify_menu('main') %}
+            <ul class="ul">
+              {% set i = 0 %}
+              {% for menu_item in front_menus.menu_tree %}
+               {% set i = i + 1 %}
+                {% if menu_item.submenu is not empty %}
+                  <li class="dropdown">
+                    <a href="{{ menu_item.url }}" id="navlink{{ i }}" class="dropbtn">
+                        <i class="fa fa-angle-left" style="font-weight:900;" id="angle-left"></i>
+                        {% if menu_item.options.attributes.class.0 %} 
+                          <i class="{{ menu_item.options.attributes.class.0 }}" aria-hidden="true"></i>
+                        {% endif %}
+                        </i>{{ menu_item.text }}
+                        <i class="fa fa-angle-down" style="margin-left:5px;font-weight:900;" id="angle-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                      {% for sub_menu in menu_item.submenu %}
+                        <a href="{{ sub_menu.url }}" style="text-transform: none">{{ sub_menu.text }}</a>
+                      {% endfor %}
+                    </div>
+                  </li>
+                {% else %}
+                  <li class="{% if menu_item.active_trail or menu_item.active %} -active {% endif %}">
+                    <a  id="navlink{{ i }}" href="{{ menu_item.url }}">
+                      {% if menu_item.options.attributes.class.0 %} 
+                        <i class="{{ menu_item.options.attributes.class.0 }}" aria-hidden="true"></i>
+                      {% endif %}
+                      {{ menu_item.text }}
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+        </nav>
+        </section>
+        {{ page.hero}}
+        {{ page.highlighted }}
+        <div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                <i class="fa fa-arrow-up"></i>
+            </button>
+            <script>
+                var mybutton = document.getElementById('myBtn');
+                window.onscroll = function() {
+                    scrollFunction();
+                };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+                        mybutton.style.display = 'block';
+                    } else {
+                        mybutton.style.display = 'none';
+                    }
+                }
+
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+        </div>
+    </header>
