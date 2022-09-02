@@ -1,0 +1,33 @@
+uuid: fdab9e9c-0965-413a-9e08-4a233045b9ad
+langcode: vi
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:656fb5a9-eb6c-4f43-86a1-254a1c11f05f'
+  module:
+    - block_content
+    - node
+  theme:
+    - mastergender
+id: sliderminigame
+theme: mastergender
+region: hero
+weight: -8
+provider: null
+plugin: 'block_content:656fb5a9-eb6c-4f43-86a1-254a1c11f05f'
+settings:
+  id: 'block_content:656fb5a9-eb6c-4f43-86a1-254a1c11f05f'
+  label: 'Slider mini game'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      game: game

@@ -1,0 +1,25 @@
+uuid: 64a7334b-67ca-406e-997f-058ce2923e7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.taxonomy_term
+  module:
+    - views
+  theme:
+    - mastergender
+id: views_block__taxonomy_term_block_2
+theme: mastergender
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:taxonomy_term-block_2'
+settings:
+  id: 'views_block:taxonomy_term-block_2'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility: {  }

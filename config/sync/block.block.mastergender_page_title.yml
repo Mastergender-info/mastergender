@@ -1,0 +1,20 @@
+uuid: f45de536-4f7d-4e15-ae08-294dc29ac954
+langcode: vi
+status: false
+dependencies:
+  theme:
+    - mastergender
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: mastergender_page_title
+theme: mastergender
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Tiêu đề trang'
+  label_display: '0'
+  provider: core
+visibility: {  }

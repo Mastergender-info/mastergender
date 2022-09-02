@@ -1,0 +1,12 @@
+uuid: 25a90312-f505-41e7-bd39-4c99fd579c9d
+langcode: vi
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: flXhTcp55yLcyy7ZLOhPGKGZobZQJdkAFVWV3LseiuI
+id: user.register
+label: 'Đăng ký'
+targetEntityType: user
+cache: true

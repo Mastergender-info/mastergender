@@ -1,0 +1,23 @@
+uuid: ba34f6cd-644c-4a88-bf7a-8335e148cc98
+langcode: vi
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - mastergender
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: mastergender_search_form_wide
+theme: mastergender
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

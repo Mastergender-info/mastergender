@@ -1,0 +1,11 @@
+uuid: 5a0949c0-eeba-4c45-a28b-49a9461744f0
+langcode: vi
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.danh_muc_bai_viet
+id: taxonomy_term.danh_muc_bai_viet
+target_entity_type_id: taxonomy_term
+target_bundle: danh_muc_bai_viet
+default_langcode: site_default
+language_alterable: false

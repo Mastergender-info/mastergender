@@ -1,0 +1,12 @@
+uuid: 0e6745ae-0994-4b47-9058-e4dfa3e88bd3
+langcode: vi
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: fVFfJv_GzBRE-wpRHbfD5a3VjnhbEOXG6lvRd3uaccY
+id: node.search_index
+label: 'Chỉ mục tìm kiếm'
+targetEntityType: node
+cache: true

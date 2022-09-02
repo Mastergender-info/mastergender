@@ -1,0 +1,9 @@
+uuid: 95514996-ef51-46de-903e-8d32c089b038
+langcode: vi
+status: true
+dependencies: {  }
+id: en
+label: English
+direction: ltr
+weight: 1
+locked: false

@@ -1,0 +1,9 @@
+uuid: 64e4afd3-7348-4f31-8623-630bd21cf3c7
+langcode: vi
+status: true
+dependencies: {  }
+id: nguoi_duyet_bai
+label: 'Người duyệt bài'
+weight: 4
+is_admin: null
+permissions: {  }

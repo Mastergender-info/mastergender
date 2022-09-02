@@ -1,0 +1,22 @@
+uuid: ae84441d-3d91-43e4-a21c-e0b0afc7751b
+langcode: vi
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - mastergender
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: mastergender_help
+theme: mastergender
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: 'Trợ giúp'
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 1bcfa2e8-a956-4e47-895c-480dea6887d7
+langcode: vi
+status: true
+dependencies:
+  theme:
+    - mastergender
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: mastergender_secondary_local_tasks
+theme: mastergender
+region: highlighted
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Thẻ phụ'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

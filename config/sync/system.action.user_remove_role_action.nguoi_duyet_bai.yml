@@ -1,0 +1,14 @@
+uuid: 00743d4a-85be-4dc4-b577-ed716d25d7d4
+langcode: vi
+status: true
+dependencies:
+  config:
+    - user.role.nguoi_duyet_bai
+  module:
+    - user
+id: user_remove_role_action.nguoi_duyet_bai
+label: 'Remove the Người duyệt bài role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: nguoi_duyet_bai

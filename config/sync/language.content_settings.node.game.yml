@@ -1,0 +1,11 @@
+uuid: c27a0648-e55b-4f01-b706-c5410c7a8461
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.game
+id: node.game
+target_entity_type_id: node
+target_bundle: game
+default_langcode: site_default
+language_alterable: false

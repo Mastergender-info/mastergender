@@ -1,0 +1,20 @@
+uuid: 7701412d-13f1-4b11-acd2-9b5ed22d5e29
+langcode: vi
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_danh_muc_bai_viet
+field_name: field_danh_muc_bai_viet
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

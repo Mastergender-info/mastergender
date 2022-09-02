@@ -1,0 +1,22 @@
+uuid: 0988f15b-22d8-4672-9fa4-b144119e6a29
+langcode: vi
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mastergender
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: mastergender_content
+theme: mastergender
+region: content
+weight: -8
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Nội dung chính của trang'
+  label_display: '0'
+  provider: system
+visibility: {  }

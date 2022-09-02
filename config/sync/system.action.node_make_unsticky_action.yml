@@ -1,0 +1,13 @@
+uuid: 4a9f230e-3da0-49ce-9972-6cf717a29d75
+langcode: vi
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: lDM9mvIGAu8Sw8rt-uCO4Sr7yX5VPrDPxYcawkbKd6k
+id: node_make_unsticky_action
+label: 'Unstick nội dung'
+type: node
+plugin: node_make_unsticky_action
+configuration: {  }

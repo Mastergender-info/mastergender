@@ -1,0 +1,23 @@
+uuid: 589677f0-b9b6-407d-9f42-b7f87462d53e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.huong_dan
+  module:
+    - text
+id: node.huong_dan.body
+field_name: body
+entity_type: node
+bundle: huong_dan
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

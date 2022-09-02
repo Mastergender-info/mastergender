@@ -1,0 +1,22 @@
+uuid: fff74a61-274d-4d2a-97b6-95ce85bfa947
+langcode: vi
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - mastergender
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: mastergender_powered
+theme: mastergender
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Sử dụng Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

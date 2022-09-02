@@ -1,0 +1,13 @@
+uuid: 15aab237-84ca-4856-a4ba-d24a03ac9a40
+langcode: vi
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: N0RDBTqiK4dKoN4p4oW2j0SGWycdHyALUe9M-Ofp89U
+id: node_promote_action
+label: 'Đưa nội dung ra trang chủ'
+type: node
+plugin: node_promote_action
+configuration: {  }

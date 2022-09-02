@@ -1,0 +1,11 @@
+uuid: 09ce78d5-d9e6-4e79-8970-e3c75607caa6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.huong_dan
+id: node.huong_dan
+target_entity_type_id: node
+target_bundle: huong_dan
+default_langcode: site_default
+language_alterable: false

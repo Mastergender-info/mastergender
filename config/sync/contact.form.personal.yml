@@ -1,0 +1,13 @@
+uuid: 0582939c-524f-4502-abc6-0db57f15f17f
+langcode: vi
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Trang liên hệ cá nhân'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Thông điệp của bạn đã được gửi đi.'
+redirect: ''

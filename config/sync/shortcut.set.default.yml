@@ -1,0 +1,8 @@
+uuid: 81853cfa-8648-40dd-af26-04fc241fc0f5
+langcode: vi
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: U5VlGjd_SfV0Qm_EfnaynOfc549cNscFAx48JfYoMRI
+id: default
+label: Default

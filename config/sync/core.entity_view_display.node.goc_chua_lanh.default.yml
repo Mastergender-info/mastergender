@@ -1,0 +1,43 @@
+uuid: b61977c4-1074-4bd6-a06f-7d9e77d81e86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.goc_chua_lanh.body
+    - field.field.node.goc_chua_lanh.field_image
+    - image.style.800x450
+    - node.type.goc_chua_lanh
+  module:
+    - image
+    - text
+    - user
+id: node.goc_chua_lanh.default
+targetEntityType: node
+bundle: goc_chua_lanh
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: 800x450
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

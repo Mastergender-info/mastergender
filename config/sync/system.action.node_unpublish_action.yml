@@ -1,0 +1,13 @@
+uuid: f5d391a5-502f-4845-8379-42dd8d0d29bc
+langcode: vi
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: C7X8h9FWlwkQ9y5mnU2JzgaZICAdc6HFbPVbhvjlAYE
+id: node_unpublish_action
+label: 'Không xuất bản nội dung'
+type: node
+plugin: 'entity:unpublish_action:node'
+configuration: {  }

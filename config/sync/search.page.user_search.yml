@@ -1,0 +1,14 @@
+uuid: 35ef28dd-9d49-4b6d-8e46-313015c3e6b0
+langcode: vi
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: k3aUaZXGDuhkek2TZIee0PApOPTvYZLadziekdyHA5A
+id: user_search
+label: 'Người dùng'
+path: user
+weight: 0
+plugin: user_search
+configuration: {  }

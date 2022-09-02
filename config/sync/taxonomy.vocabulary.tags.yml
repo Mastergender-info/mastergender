@@ -1,0 +1,10 @@
+uuid: 9e1125d6-fbba-4b1d-b97b-dbd32934f5f7
+langcode: vi
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yoNVreoTdTZTY7GuE8fI9Jmxqdz8vlo4ZJKixMNSosw
+name: Thẻ
+vid: tags
+description: 'Sử dụng thẻ để nhóm các bài viết về các chủ đề tương tự thành các thể loại.'
+weight: 0

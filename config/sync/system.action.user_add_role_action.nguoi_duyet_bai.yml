@@ -1,0 +1,14 @@
+uuid: f691ee65-a6c7-4ea2-abe1-47941ce33197
+langcode: vi
+status: true
+dependencies:
+  config:
+    - user.role.nguoi_duyet_bai
+  module:
+    - user
+id: user_add_role_action.nguoi_duyet_bai
+label: 'Add the Người duyệt bài role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: nguoi_duyet_bai

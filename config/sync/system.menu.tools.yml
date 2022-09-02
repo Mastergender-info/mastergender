@@ -1,0 +1,10 @@
+uuid: 25343a48-71ac-43fe-8fe7-4210b227783e
+langcode: vi
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BCM-vV1zzRaLHN18dqAR_CuGOj8AFJvTx7BKl_8Gcxc
+id: tools
+label: 'Các công cụ'
+description: 'User tool links, often added by modules'
+locked: true

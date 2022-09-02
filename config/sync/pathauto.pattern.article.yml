@@ -1,0 +1,22 @@
+uuid: 734ad874-fa45-4d79-a2c7-ef4eb57b51f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: article
+label: Article
+type: 'canonical_entities:node'
+pattern: '/bai-viet/[node:title]-[node:nid].html'
+selection_criteria:
+  7e810e88-8156-46c9-b919-819bdf549ed6:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 7e810e88-8156-46c9-b919-819bdf549ed6
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+selection_logic: and
+weight: -5
+relationships: {  }

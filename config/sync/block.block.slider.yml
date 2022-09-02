@@ -1,0 +1,30 @@
+uuid: 33dcb85b-9c48-4b14-aaf4-255615fd4776
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:05697701-4e8a-4047-b686-867adbbc9463'
+  module:
+    - block_content
+    - system
+  theme:
+    - mastergender
+id: slider
+theme: mastergender
+region: hero
+weight: -9
+provider: null
+plugin: 'block_content:05697701-4e8a-4047-b686-867adbbc9463'
+settings:
+  id: 'block_content:05697701-4e8a-4047-b686-867adbbc9463'
+  label: Slider
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/bai-viet/*\r\n/danh-muc/*\r\n"

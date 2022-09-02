@@ -1,0 +1,11 @@
+uuid: 3f549bcc-58ee-40a5-82f5-1c8024bba2d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.goc_chua_lanh
+id: node.goc_chua_lanh
+target_entity_type_id: node
+target_bundle: goc_chua_lanh
+default_langcode: site_default
+language_alterable: false

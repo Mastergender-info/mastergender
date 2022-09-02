@@ -1,0 +1,22 @@
+uuid: 858002bc-6b22-409f-a63e-960d4a84a4fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: goc_chua_lanh
+label: 'Góc chữa lành'
+type: 'canonical_entities:node'
+pattern: '/goc-chua-lanh/[node:title]-[node:nid].html'
+selection_criteria:
+  3236826a-5193-497a-a27f-74ec3c33b31c:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 3236826a-5193-497a-a27f-74ec3c33b31c
+    context_mapping:
+      node: node
+    bundles:
+      goc_chua_lanh: goc_chua_lanh
+selection_logic: and
+weight: -5
+relationships: {  }

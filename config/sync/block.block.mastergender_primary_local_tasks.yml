@@ -1,0 +1,22 @@
+uuid: 5c336d59-26e6-4524-8a0a-7a1caaf1c232
+langcode: vi
+status: true
+dependencies:
+  theme:
+    - mastergender
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: mastergender_primary_local_tasks
+theme: mastergender
+region: highlighted
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Tab chính'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: 0ffde137-06d5-41aa-8941-2fa44a1d6f05
+langcode: vi
+status: true
+dependencies: {  }
+name: 'Danh mục bài viết'
+vid: danh_muc_bai_viet
+description: ''
+weight: 0

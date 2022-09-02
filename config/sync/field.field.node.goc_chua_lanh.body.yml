@@ -1,0 +1,23 @@
+uuid: 15f854f2-a0fd-4a8c-ac40-5b0931b9930d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.goc_chua_lanh
+  module:
+    - text
+id: node.goc_chua_lanh.body
+field_name: body
+entity_type: node
+bundle: goc_chua_lanh
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

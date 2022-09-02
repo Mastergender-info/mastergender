@@ -1,0 +1,52 @@
+uuid: aa61798f-de3f-46c0-9015-f1b3af426d94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.huong_dan.body
+    - node.type.huong_dan
+  module:
+    - path
+    - text
+id: node.huong_dan.default
+targetEntityType: node
+bundle: huong_dan
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

@@ -1,0 +1,60 @@
+uuid: 0a527451-b3a9-489e-8db1-4f5632903d9f
+langcode: vi
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.tin_hot
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_danh_muc_bai_viet
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
+    - image.style.880x500
+    - node.type.article
+  module:
+    - image
+    - text
+    - user
+_core:
+  default_config_hash: 7fb0j9HnIXfP9ndewzgPPzzeX_SV532wuYpkscrCMCk
+id: node.article.tin_hot
+targetEntityType: node
+bundle: article
+mode: tin_hot
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 350
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: 880x500
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  comment: true
+  field_danh_muc_bai_viet: true
+  langcode: true

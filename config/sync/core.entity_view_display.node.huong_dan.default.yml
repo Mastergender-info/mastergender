@@ -1,0 +1,29 @@
+uuid: 6e1d80d6-4ea9-4b00-9fb2-772700012156
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.huong_dan.body
+    - node.type.huong_dan
+  module:
+    - text
+    - user
+id: node.huong_dan.default
+targetEntityType: node
+bundle: huong_dan
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

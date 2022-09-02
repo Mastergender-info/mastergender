@@ -1,0 +1,10 @@
+uuid: 84e15e77-630c-4edf-8f2b-d26e02013ffc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.tin_hot
+label: 'Tin hot'
+targetEntityType: node
+cache: true

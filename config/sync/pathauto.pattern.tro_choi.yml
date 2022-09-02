@@ -1,0 +1,22 @@
+uuid: 60f13165-3c23-442f-8f8c-4c5f91c859c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: tro_choi
+label: 'Trò chơi'
+type: 'canonical_entities:node'
+pattern: '/tro-choi/[node:title]-[node:nid]'
+selection_criteria:
+  8175199b-27d7-4ff1-88a6-80fb0d1e3f77:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 8175199b-27d7-4ff1-88a6-80fb0d1e3f77
+    context_mapping:
+      node: node
+    bundles:
+      game: game
+selection_logic: and
+weight: -5
+relationships: {  }

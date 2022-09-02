@@ -1,0 +1,22 @@
+uuid: 76d71cfa-e0eb-40cb-8220-a71cfe1c0be2
+langcode: vi
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mastergender
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: mastergender_messages
+theme: mastergender
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

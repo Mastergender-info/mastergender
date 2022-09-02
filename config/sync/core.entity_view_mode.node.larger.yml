@@ -1,0 +1,10 @@
+uuid: 03f76861-e797-48e4-bda7-a5deb90b6021
+langcode: vi
+status: true
+dependencies:
+  module:
+    - node
+id: node.larger
+label: Larger
+targetEntityType: node
+cache: true

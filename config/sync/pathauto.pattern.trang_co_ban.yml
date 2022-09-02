@@ -1,0 +1,22 @@
+uuid: f3ba1334-0c71-4ebb-ab65-9bb86c0f222f
+langcode: vi
+status: true
+dependencies:
+  module:
+    - node
+id: trang_co_ban
+label: 'Trang cơ bản'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  b0cf2ec7-6b19-4ee1-b157-a19b20b55825:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: b0cf2ec7-6b19-4ee1-b157-a19b20b55825
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }

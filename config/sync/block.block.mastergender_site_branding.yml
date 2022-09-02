@@ -1,0 +1,25 @@
+uuid: fec91f56-f1a0-4701-976b-efd8f9e98a18
+langcode: vi
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mastergender
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: mastergender_site_branding
+theme: mastergender
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

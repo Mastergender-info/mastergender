@@ -1,0 +1,29 @@
+uuid: c5fa6398-31e3-44bd-a2a7-20c4a3a3652c
+langcode: vi
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_danh_muc_bai_viet
+    - node.type.article
+    - taxonomy.vocabulary.danh_muc_bai_viet
+id: node.article.field_danh_muc_bai_viet
+field_name: field_danh_muc_bai_viet
+entity_type: node
+bundle: article
+label: 'Danh mục bài viết'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      danh_muc_bai_viet: danh_muc_bai_viet
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

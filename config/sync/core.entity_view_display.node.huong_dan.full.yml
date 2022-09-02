@@ -1,0 +1,30 @@
+uuid: 953d47f7-c1db-45d5-89fb-4799cc75f9ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.huong_dan.body
+    - node.type.huong_dan
+  module:
+    - text
+    - user
+id: node.huong_dan.full
+targetEntityType: node
+bundle: huong_dan
+mode: full
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,29 @@
+uuid: 3f70a06a-98f8-44d0-86d1-56ee97fdb8f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.bai_viet_noi_bat
+  module:
+    - system
+    - views
+  theme:
+    - mastergender
+id: views_block__bai_viet_noi_bat_block_2
+theme: mastergender
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:bai_viet_noi_bat-block_2'
+settings:
+  id: 'views_block:bai_viet_noi_bat-block_2'
+  label: 'Nổi bật'
+  label_display: '0'
+  provider: views
+  views_label: 'Nổi bật'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/goc-chua-lanh\r\n/goc-chua-lanh/*"

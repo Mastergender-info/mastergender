@@ -1,0 +1,29 @@
+uuid: 324fd14c-0f39-4279-bec6-82d1b09962d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.home
+  module:
+    - system
+    - views
+  theme:
+    - mastergender
+id: views_block__home_block_1
+theme: mastergender
+region: content
+weight: -12
+provider: null
+plugin: 'views_block:home-block_1'
+settings:
+  id: 'views_block:home-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

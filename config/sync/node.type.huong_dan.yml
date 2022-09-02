@@ -1,0 +1,18 @@
+uuid: ec71f592-f53a-44ec-a725-e8d0444aef06
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Hướng dẫn'
+type: huong_dan
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,24 @@
+uuid: 66dfcfa3-d2d7-4493-88ee-3a3e6eb5b29a
+langcode: vi
+status: true
+dependencies:
+  config:
+    - node.type.page
+_core:
+  default_config_hash: fPUEnm4T5zfZRr3ttDUqq7yCDd2uW3clWD-pvos4tlQ
+id: node.page.promote
+field_name: promote
+entity_type: node
+bundle: page
+label: 'Đưa lên trang chủ'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Bật
+  off_label: Tắt
+field_type: boolean

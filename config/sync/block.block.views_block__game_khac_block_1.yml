@@ -1,0 +1,33 @@
+uuid: 38f1e2d2-d3e4-41c9-91a0-4b5eadc85480
+langcode: vi
+status: true
+dependencies:
+  config:
+    - views.view.game_khac
+  module:
+    - node
+    - views
+  theme:
+    - mastergender
+id: views_block__game_khac_block_1
+theme: mastergender
+region: sidebar
+weight: -8
+provider: null
+plugin: 'views_block:game_khac-block_1'
+settings:
+  id: 'views_block:game_khac-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      game: game

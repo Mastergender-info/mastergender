@@ -1,0 +1,38 @@
+uuid: a1d0c6b2-e8de-44fc-9bc7-19c70aa4d46a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.highlight
+    - field.field.node.game.body
+    - field.field.node.game.field_huong_dan
+    - field.field.node.game.field_image
+    - node.type.game
+  module:
+    - image
+    - user
+id: node.game.highlight
+targetEntityType: node
+bundle: game
+mode: highlight
+content:
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  field_huong_dan: true
+  langcode: true
