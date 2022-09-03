@@ -1,22 +1,22 @@
-uuid: e272e0f4-f6c3-4fee-aacc-f93466ff74a7
+uuid: 85bb88bb-2249-4654-ad62-8e38803dc311
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.home
+    - views.view.goc_chua_lanh
   module:
     - system
     - views
   theme:
     - mastergender
-id: views_block__home_block_2
+id: views_block__goc_chua_lanh_block_1
 theme: mastergender
 region: content
-weight: -12
+weight: -9
 provider: null
-plugin: 'views_block:home-block_2'
+plugin: 'views_block:goc_chua_lanh-block_1'
 settings:
-  id: 'views_block:home-block_2'
+  id: 'views_block:goc_chua_lanh-block_1'
   label: ''
   label_display: '0'
   provider: views
@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '<front>'
+    pages: /goc-chua-lanh

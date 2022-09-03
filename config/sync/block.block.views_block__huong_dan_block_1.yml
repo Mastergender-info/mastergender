@@ -11,8 +11,8 @@ dependencies:
     - mastergender
 id: views_block__huong_dan_block_1
 theme: mastergender
-region: content
-weight: -7
+region: content_below
+weight: -12
 provider: null
 plugin: 'views_block:huong_dan-block_1'
 settings:

@@ -1,16 +1,19 @@
 #block-views-block-home-block-1,
 #block-views-block-home-block-2,
 #block-views-block-taxonomy-term-block-1,
-#block-views-block-taxonomy-term-block-2 {
+#block-views-block-taxonomy-term-block-2,
+#block-views-block-goc-chua-lanh-block-1 {
   padding-bottom: 10px;
 }
 
 #block-views-block-home-block-1 .fie2:first-child,
-#block-views-block-taxonomy-term-block-2 .fie2:first-child {
+#block-views-block-taxonomy-term-block-2 .fie2:first-child,
+#block-views-block-goc-chua-lanh-block-1 .fie2:first-child{
   margin-right: 5px;
 }
 #block-views-block-home-block-2 .fie2:last-child, 
-#block-views-block-taxonomy-term-block-2 .fie2:last-child{
+#block-views-block-taxonomy-term-block-2 .fie2:last-child,
+block-views-block-goc-chua-lanh-block-1 .fie2:last-child{
   margin-left: 5px;
 }
 

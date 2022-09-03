@@ -1,25 +1,27 @@
-uuid: b61977c4-1074-4bd6-a06f-7d9e77d81e86
+uuid: 958e7791-b065-49a6-bd7a-ca5019ca868c
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.larger
     - field.field.node.goc_chua_lanh.body
     - field.field.node.goc_chua_lanh.field_image
-    - image.style.800x450
+    - image.style.250x150
     - node.type.goc_chua_lanh
   module:
     - image
     - text
     - user
-id: node.goc_chua_lanh.default
+id: node.goc_chua_lanh.larger
 targetEntityType: node
 bundle: goc_chua_lanh
-mode: default
+mode: larger
 content:
   body:
-    type: text_default
+    type: text_summary_or_trimmed
     label: hidden
-    settings: {  }
+    settings:
+      trim_length: 300
     third_party_settings: {  }
     weight: 101
     region: content
@@ -28,7 +30,7 @@ content:
     label: hidden
     settings:
       image_link: ''
-      image_style: 800x450
+      image_style: 250x150
       image_loading:
         attribute: lazy
     third_party_settings: {  }

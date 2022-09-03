@@ -10,6 +10,9 @@
                     <div class="main-content-index-part">
                       {{ page.content }}
                     </div>
+                  {% if page.content_below %}
+                    {{ page.content_below }}
+                  {% endif %}
                 </div>
                 <aside class="sidebar">
                     <div class="main-content-page" style="min-height: 500px">
