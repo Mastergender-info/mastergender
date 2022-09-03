@@ -1,0 +1,33 @@
+uuid: 78e4a2f6-7fbb-4641-adcc-48fb17c3baad
+langcode: vi
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:801043cf-2baf-40e6-9692-5a1f622aeb43'
+  module:
+    - block_content
+    - node
+  theme:
+    - mastergender
+id: comment2
+theme: mastergender
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:801043cf-2baf-40e6-9692-5a1f622aeb43'
+settings:
+  id: 'block_content:801043cf-2baf-40e6-9692-5a1f622aeb43'
+  label: 'Comment 2'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      game: game

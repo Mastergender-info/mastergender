@@ -31,7 +31,7 @@ display:
         type: mini
         options:
           offset: 4
-          items_per_page: 10
+          items_per_page: 1
           total_pages: 0
           id: 0
           tags:
