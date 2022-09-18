@@ -458,19 +458,19 @@ p {
 .button {
     font-family: inherit;
     font-size: inherit;
-    border: none;
+    border: 1px solid black;
     border-radius: 10px;
     background: #ffffff00;
-    color: rgb(255, 255, 255);
+    color: black;
     font-weight: 600;
     text-align: center;
-    width: 100%;
+    width: 150px;
     cursor: pointer;
 }
 
 .button:hover {
-    background: #ffffff00;
-    color: rgb(228, 224, 224);
+    background: black;
+    color: white;
 }
 
 .stickybar ul li::marker {
