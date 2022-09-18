@@ -115,8 +115,8 @@ li.dropdown {
     transform-origin: top !important;
 }
 
-#navlink1 {
-    color: #61adef;
+#navlink1 { color: #6bb73b;
+    
 }
 
 #navlink2 {
@@ -132,11 +132,15 @@ li.dropdown {
 }
 
 #navlink5 {
-    color: #6bb73b;
+   color: #61adef;
+}
+
+#navlink6 {
+    color: #d63be9;
 }
 
 #navlink1:hover {
-    color: #3671be;
+    color: #d63be9;
 }
 
 #navlink2:hover {
@@ -152,7 +156,11 @@ li.dropdown {
 }
 
 #navlink5:hover {
-    color: #3fa300;
+    color: #3671be;
+}
+
+#navlink6:hover {
+    color: #d63be9;
 }
 
 .checkbtn {
