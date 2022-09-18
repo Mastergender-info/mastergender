@@ -465,6 +465,7 @@ p {
     font-weight: 600;
     text-align: center;
     width: 150px;
+  margin-left:40%;
     cursor: pointer;
 }
 
