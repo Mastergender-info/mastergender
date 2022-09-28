@@ -54,7 +54,7 @@ p {
     font-family: 'Lemonada', cursive;
     font-weight: 500;
     font-size: 12px;
-    line-height: 20px;
+/*     line-height: 25px; */
     color: rgb(64, 64, 64);
 }
 
@@ -602,8 +602,7 @@ p {
         font-size: 18px;
     }
     p {
-        font-size: 10px;
-        line-height: 15px;
+        font-size: 10px;      
     }
     .footer-block p {
         font-size: 12px;
@@ -672,8 +671,7 @@ p {
         font-size: 16px;
     }
     p {
-        font-size: 9px;
-        line-height: 15px;
+        font-size: 9px;        
     }
     .main-content-index-part {
         padding: 40px;
