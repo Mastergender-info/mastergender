@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "<front>\r\n/bai-viet/*\r\n/danh-muc/*\r\n/gioi-thieu\r\n/lien-he"
+    pages: "<front>\r\n/bai-viet/*\r\n/danh-muc/*\r\n/gioi-thieu\r\n/lien-he\r\n/user/login"
