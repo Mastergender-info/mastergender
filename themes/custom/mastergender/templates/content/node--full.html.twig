@@ -4,9 +4,11 @@
   <br />
   <section>
     {% if content.field_image.0 is not empty %}
-    <figure>
-        {{ content.field_image.0 }}
-    </figure>
+      {% set img_title = content.field_image['#items'].getValue()[0]['title'] %}
+      <figure>
+          {{ content.field_image.0 }}
+          <figcaption>{{ img_title }}</figcaption>
+      </figure>
     {% endif %}
     <div class="a">
         {{ content.body.0 }}

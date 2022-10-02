@@ -1,9 +1,9 @@
-uuid: 78e4a2f6-7fbb-4641-adcc-48fb17c3baad
+uuid: 396e2d2a-d7c1-4738-8074-56b312610c14
 langcode: vi
 status: true
 dependencies:
   content:
-    - 'block_content:basic:801043cf-2baf-40e6-9692-5a1f622aeb43'
+    - 'block_content:basic:bb184133-8127-4d63-abf1-5f81a9e4ba38'
   module:
     - block_content
     - node
@@ -14,9 +14,9 @@ theme: mastergender
 region: footer_top
 weight: 0
 provider: null
-plugin: 'block_content:801043cf-2baf-40e6-9692-5a1f622aeb43'
+plugin: 'block_content:bb184133-8127-4d63-abf1-5f81a9e4ba38'
 settings:
-  id: 'block_content:801043cf-2baf-40e6-9692-5a1f622aeb43'
+  id: 'block_content:bb184133-8127-4d63-abf1-5f81a9e4ba38'
   label: 'Comment 2'
   label_display: '0'
   provider: block_content

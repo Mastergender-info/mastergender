@@ -18,7 +18,7 @@ plugin: 'views_block:bai_viet_noi_bat-block_2'
 settings:
   id: 'views_block:bai_viet_noi_bat-block_2'
   label: 'Nổi bật'
-  label_display: '0'
+  label_display: visible
   provider: views
   views_label: 'Nổi bật'
   items_per_page: none
