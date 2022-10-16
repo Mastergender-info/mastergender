@@ -1,18 +1,26 @@
-  <h2 style="text-align: center">{{ label }}</h2>
-  <br />
-  <hr />
-  <br />
-  <section>
-    {% if content.field_image.0 is not empty %}
-      {% set img_title = content.field_image['#items'].getValue()[0]['title'] %}
-      <figure>
-          {{ content.field_image.0 }}
-          <figcaption>{{ img_title }}</figcaption>
-      </figure>
+  <div class="main-content-index-part">
+    <h2 style="text-align: center">{{ label }}</h2>
+    <br />
+    <hr />
+    <br />
+    <section>
+      {% if content.field_image.0 is not empty %}
+        {% set img_title = content.field_image['#items'].getValue()[0]['title'] %}
+        <figure>
+            {{ content.field_image.0 }}
+            <figcaption>{{ img_title }}</figcaption>
+        </figure>
+      {% endif %}
+      <div class="a">
+          {{ content.body.0 }}
+      </div>
+    </section>
+  </div>
+  {% for i in content.body['#items']|keys %}
+    {% if i > 0 %}
+      <div class="main-content-index-part">
+        {{ content.body[i] }}
+      </div>
     {% endif %}
-    <div class="a">
-        {{ content.body.0 }}
-    </div>
-  </section>
-
+  {% endfor %}
 
